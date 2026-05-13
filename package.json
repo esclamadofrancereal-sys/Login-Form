@@ -1,0 +1,11 @@
+{
+  "name": "login-form-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix simple run dev",
+    "build": "npm --prefix simple run build",
+    "lint": "npm --prefix simple run lint",
+    "preview": "npm --prefix simple run preview",
+    "install:app": "npm --prefix simple install"
+  }
+}
