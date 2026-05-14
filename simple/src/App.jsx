@@ -26,9 +26,13 @@ const App = () => {
       <form action="#" className="login-form">
         <div className="input-wrapper">
           <input type="password" placeholder="Password" required />
-          <img src="/lock.svg" alt=""/>
+          <img src="/lock.svg" alt="" className="lock-icon" />
         </div>
+        <a href="#" className="forgotpassword">Forgot Password?</a>
+        <button type="submit" className="login-btn">Log In</button>
       </form>
+
+      <p className="signup">Don't have an account? <a href="#" className="signup-link">Sign Up</a></p>
     </div>
   )
 }
