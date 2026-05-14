@@ -18,7 +18,15 @@ const App = () => {
       <form action="#" className="login-form">
         <div className="input-wrapper">
           <input type="email" placeholder="Email" required />
+          <img src="/mail.svg" alt="" className="mail-icon" />
+        </div>
+      </form>
 
+
+      <form action="#" className="login-form">
+        <div className="input-wrapper">
+          <input type="password" placeholder="Password" required />
+          <img src="/lock.svg" alt=""/>
         </div>
       </form>
     </div>
