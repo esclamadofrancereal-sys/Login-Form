@@ -29,12 +29,12 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     gap: 10px;
 }
 
@@ -75,3 +75,26 @@ body{
     background-color: grey;
 }
 
+.login-form .input-wrapper{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.login-form .input-wrapper .input-field{
+   height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login-form .input-wrapper .mail-icon{
+    color: grey;
+    position: absolute;
+    top: 17%;
+    left: 0.9 rem;
+    transform: translateY(-0%);
+    pointer-events: none;
+  
+}
