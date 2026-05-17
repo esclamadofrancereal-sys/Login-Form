@@ -114,3 +114,10 @@ body{
 .login-form .Loginbtn:hover{
     background-color: green;
 }
+
+.signup{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
