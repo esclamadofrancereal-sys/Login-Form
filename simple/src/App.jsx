@@ -1,8 +1,11 @@
+import SocialLoginButton from "./components/SocialLoginButton";
 const App = () => {
   return (
     <div className = "Login-Container">
       <h2 className="form">Log in with</h2>
       
+      <SocialLoginButton />
+
       <p className="separator"><span>or</span></p>
 
       <form action="#" className="login-form">
