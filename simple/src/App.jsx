@@ -1,4 +1,5 @@
 import SocialLoginButton from "./components/SocialLoginButton";
+import InputField from "./components/InputField";
 const App = () => {
   return (
     <div className = "Login-Container">
@@ -9,15 +10,10 @@ const App = () => {
       <p className="separator"><span>or</span></p>
 
       <form action="#" className="login-form">
-        <div className="input-wrapper">
-          <input type="email" placeholder="Email" className="input-field" required />
-          <img src="/mail.svg" alt="" className="mail-icon" />
-        </div>
+        
+        <InputField  type= "email" placeholder="Email" icon="/mail.svg"/>
+        <InputField  type= "password" placeholder="Password" icon="/lock.svg"/>
 
-        <div className="input-wrapper">
-          <input type="password" placeholder="Password" className="input-field" required />
-          <img src="/lock.svg" alt="" className="mail-icon" />
-        </div>
         <a href="#" className="forgotpassword">Forgot Password?</a>
         <button type="submit" className="Loginbtn">Log In</button>
 
